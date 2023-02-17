@@ -31,7 +31,7 @@ public class HomeWork02 {
 
         Constructor<?> fileConstructor = fileClass.getDeclaredConstructor(String.class);
         Object o = fileConstructor.newInstance("/Users/kai/myNews.txt");
-      File file = (File) o;
+         File file = (File) o;
 //        file.createNewFile();
         Method createNewFile = fileClass.getMethod("createNewFile");
         createNewFile.invoke(o);
