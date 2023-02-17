@@ -19,6 +19,7 @@ public class HomeWork01 {
         Method getName = aClass.getMethod("getName");
         Object invoke = getName.invoke(o);
         System.out.println(invoke);
+        System.out.println("helloworld");
     }
 }
 class PrivateTest{
