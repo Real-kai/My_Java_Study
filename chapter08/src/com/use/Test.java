@@ -14,7 +14,7 @@ public class Test {
         com.xiaoming.Dog dog1 = new com.xiaoming.Dog();
         System.out.println(dog1);//com.xiaoming.Dog@677327b6
 
-
+//
         System.out.println(Math.abs(-1));
     }
 }
