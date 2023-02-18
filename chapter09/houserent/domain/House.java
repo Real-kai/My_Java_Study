@@ -7,6 +7,7 @@ public class House {
     //编号  房主  电话  地址  月租  状态(未出租/已出租)
     private int id;
     private String name;
+    private String name;
     private String phone;
     private String address;
     private int rent;
