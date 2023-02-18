@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
  * @version 1.0
  */
 public class Reflection02 {
-    public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, IllegalAccessException, NoSuchMethodException, InstantiationException {
+    public static void main(Sdtring[] args) throws ClassNotFoundException, InvocationTargetException, IllegalAccessException, NoSuchMethodException, InstantiationException {
         m1();
         m2();
         m3();

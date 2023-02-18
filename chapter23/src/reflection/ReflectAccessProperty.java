@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
  * @version 1.0
  */
 public class ReflectAccessProperty {
-    public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchFieldException {
+    public static void main(Sdtring[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchFieldException {
         //1.得到Student对应的Class对象
         Class<?> studentClass = Class.forName("reflection.Student");
         //2.通过反射创建Student对象
@@ -28,13 +28,13 @@ public class ReflectAccessProperty {
 }
 class Student{
     public int age;
-    private static String name;
+    private static Sdtring name;
 
     public Student() {
     }
 
     @Override
-    public String toString() {
+    public Sdtring toString() {
         return "Student{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
